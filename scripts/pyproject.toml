@@ -1,7 +1,9 @@
 [project]
 name = "scripts"
 version = "0.1.0"
-description = "Add your description here"
+description = "Tools for processing HumbleBundle books"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pillow>=10.0.0",
+]
